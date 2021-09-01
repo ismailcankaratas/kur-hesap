@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Hesaplama</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="kur-hesap">
+    <h1>Döviz Hesap </h1>
+    <span class="guncel"></span>
+        <p class="miktar-container">
+            Miktar :
+            <input type="text" placeholder="Miktar" class="miktar">
+        </p>
+           <p class="doviz-select">
+            <select id="doviz">
+                <!-- <option value="TL">Türk Lirası</option> -->
+                <option value="USD" selected="selected">ABD Doları</option>
+            </select>
+           </p>
+
+            
+                <p class="sonuc">Sonuc :&nbsp; <span class="dolar">0</span></p>
+    </div>
+</div>
+    
+</body>
+</html>
+<script src="assets/main.js"></script>
