@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 1rem 0;
+    margin-top: 5rem;
 }
 .guncel {
     font-size: 0.8rem;
@@ -42,4 +43,16 @@ p {
     border: 3px solid #ccc;
     transition: 0.5s;
     border-radius: 4px;
+}
+.doviz {
+    position: absolute;
+    top: 0px;
+    display: flex;
+}
+.doviz p {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
 }
