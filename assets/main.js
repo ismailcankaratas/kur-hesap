@@ -10,15 +10,15 @@ $(".gram-altin").html("Gran Altın " + veri["gram-altin"].Alış + "₺");
   var secilenDoviz = $("#doviz").val();
   var miktar = $(".miktar").val();
   var dolar = veri[secilenDoviz].Alış.replace(",",".");
-  var dolarHesap = parseFloat(miktar) * parseFloat(dolar) ;
-  $(".dolar").html(parseFloat(dolarHesap) + "₺");
+  var dolarHesap = parseFloat(miktar) * parseFloat(dolar).toFixed(2);
+  $(".dolar").html(parseFloat(dolarHesap) + "₺").toFixed(2);
 
  })
 $(".miktar").keyup(function() {
 var secilenDoviz = $("#doviz").val();
 var miktar = $(".miktar").val();
 var dolar = veri[secilenDoviz].Alış.replace(",",".");
-var dolarHesap = parseFloat(miktar) * parseFloat(dolar) ;
+var dolarHesap = parseFloat(miktar) * parseFloat(dolar).toFixed(2);
 $(".dolar").html(parseFloat(dolarHesap) + "₺");
 
 })
