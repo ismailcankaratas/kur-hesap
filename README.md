@@ -1,1 +1,1 @@
-# Anlık dolar, euo, altın hesaplama
+# Anlık dolar, euro, altın hesaplama
